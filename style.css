@@ -1,0 +1,59 @@
+*{
+    margin: 0 ; padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Comfortaa;
+}
+.container{
+    width:350px;
+    padding: 20px;
+    background-color: #727272;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.top{
+    width:310px;
+    padding: 25px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(154, 211, 70);
+    user-select: none;
+    font-size: 30px;
+    word-wrap: break-word;
+    font-family: "DS-DIGIB", Arial, Helvetica, sans-serif;
+}
+.main{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows:  repeat(4, 1fr);
+    gap:10px;
+}
+.square{
+    width: 70px;
+    height: 70px;
+    padding:20px;
+    background-color: rgb(48, 48, 49);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.operator, .operator1, .operator2, .root2, .pow{
+    background-color: rgb(164, 164, 164);
+    color: white;
+}
